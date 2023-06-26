@@ -90,8 +90,8 @@
 			大家好&#65292 我现在是<a href="https://www.uestc.edu.cn/" target="_blank">电子科技大学</a>电子科学与工程学院的在读二年级硕士生&#65292 所在实验室为生物医学成像与视觉实验室&#65292 
 			导师是<a href="https://www.ese.uestc.edu.cn/info/5035/7746.htm" target="_blank">王钊</a>教授。我的工作是设计和实现新的医学成像系统&#65292 并利用人工智能方法分析临床图像和数据从而更好地辅助诊断与治疗。 
 			 </p>
-			<p>同时&#65292 作为访问学生在江南大学生物信息研究所参与了部分项目&#65292 导师是<a href="http://faculty.cumt.edu.cn/xingchen" target="_blank">陈兴</a>教授。
-				课题研究中主要使用深度学习方法分析和药物相关的问题。
+			<p>本科期间作为访问学生在江南大学生物信息研究所参与了部分项目&#65292 导师是<a href="https://science.jiangnan.edu.cn/info/1017/8499.htm" target="_blank">陈兴</a>教授。
+				主要使用深度学习方法分析药物相关的问题。
 		    </p>
 			
 			 <p>我对结合软件与硬件搭建复杂系统非常感兴趣&#65292 我也很喜欢训练神经网络为临床和医学需求提供智能化的解决方案。我的研究兴趣包括&#65292 但不限于：</p>
@@ -279,7 +279,7 @@
 					<li>在眼前节图像处理领域，首次提出了分割和关键点检测多任务算法，算法性能达到高级医师水平</li>
 					<li>分割目标包括角膜，虹膜，晶状体，ICL和IOL。关键点检测目标包括巩膜突和虹膜根。相比于前人工作，首次囊括了眼前节几乎所有的重要结构</li>
 					<li>基于多任务算法完成了眼前节OCT图像的折射率修正，恢复出真实的眼前节结构，弥补了部分商业系统的不足</li>
-					<li>计算了全面的眼前节临床指标，创新了部分指标的展示形式，可以用于疾病诊断，手术规划和术后评估。</li>
+					<li>计算了全面的眼前节临床指标，创新了部分指标的可视化形式，可以用于疾病诊断，手术规划和术后评估。</li>
 				</ul> 
 
 				<a href="zh-projects/zh-project-ASOCT.html" target="_blank"> <small>[项目主页]</small></a>
@@ -294,7 +294,7 @@
 				</div>
 			</div>
 			<div class="col-md-10">
-				<p><font color="black"><b>&nbsp;&nbsp;基于异构数据多维度特征融合的药物副作用频率预测</b>&nbsp;&nbsp;|&nbsp;利用深度学习方法预测药物发生不同副作用的频率</font></p>
+				<p><font color="black"><b>&nbsp;&nbsp;基于多维度卷积和分子transformer的药物副作用频率预测</b>&nbsp;&nbsp;|&nbsp;利用深度学习方法预测药物发生不同副作用的频率</font></p>
 
 				<ul>
 					<li>设计了一种药物副作用频率预测算法，综合利用了相似度信息和药物的分子结构信息，预测精确度领先其他SOTA方法</li>
@@ -306,6 +306,25 @@
 			</div>
 		</div><hr>
 
+		<div class="row">
+			<div class="col-md-2">
+				<div style="max-width:300px;">
+					<img class="img-fluid img-rounded" src="zh-CN-files/Homepage_FOV_intro.jpg" style="border:1px solid black" alt="">
+				</div>
+			</div>
+			<div class="col-md-10">
+				<p><font color="black"><b>&nbsp;&nbsp;机器人辅助大视场OCT成像系统研究</b>&nbsp;&nbsp;|&nbsp;将机械臂与大视场OCT相结合，对物体进行快速精确的三维成像与建模</font></p>
+
+				<ul>
+					<li>数据的后处理和图像的实时显示，可在0.7秒内完成全脸成像</li>
+					<li>点云数据的提取与处理，基于OCT的深度图像，提取人脸或其他物体表面的点云，精确还原物体表面的三维结构</li>
+					<li>OCT系统和机械臂的搭建与调试</li>
+				</ul> 
+
+				<a href="zh-projects/zh-project-large_FOV.html" target="_blank"> <small>[项目主页]</small></a>
+				<a href="zh-projects/zh-projects-files/lip_pointcloud.xyz" download="lip_pointcloud.xyz"> <small>[嘴唇点云示例数据]</small></a>
+			</div>
+		</div><hr>
 
 		<div class="row">
 			<div class="col-md-2">
@@ -317,10 +336,10 @@
 				<p><font color="black"><b>&nbsp;&nbsp;下一代光学相干断层成像系统研究</b>&nbsp;&nbsp;|&nbsp;开发更加强大的近红外和可见光谱域光学相干断层成像系统</font></p>
 
 				<ul>
-					<li>负责了近红外相干断层成像系统（SSOCT）和可见光相干断层成像系统（SDOCT）的软件编写，完成系统控制，信号采集与后处理，图像生成与现实。同时利用CUDA完成两个系统的实时成像</li>
+					<li>负责了近红外相干断层成像系统（SSOCT）和可见光相干断层成像系统（SDOCT）的软件编写，完成系统控制，信号采集与后处理和图像生成。同时利用CUDA完成两个系统的实时成像</li>
 					<li>负责SDOCT的信号采集系统的设计和搭建，包括采集卡选型和调试，同步信号和控制信号的设计与电路搭建</li>
 					<li>参与了SSOCT和SDOCT光学系统的搭建和测试</li>
-					<li>完成了对人，小鼠和猪心肌的成像实验</li>
+					<li>完成了对人，小鼠和猪冠状动脉内壁等组织的成像实验</li>
 				</ul> 
 				
 				<a href="zh-projects/zh-project-SSOCT-SDOCT.html" target="_blank"> <small>[项目主页]</small></a>
@@ -335,38 +354,17 @@
 				</div>
 			</div>
 			<div class="col-md-10">
-				<p><font color="black"><b>&nbsp;&nbsp;内窥多模态成像技术研究</b>&nbsp;&nbsp;|&nbsp;同步完成生物组织的光学相干断层成像与荧光成像，结合内窥技术完成生物体体内成像</font></p>
+				<p><font color="black"><b>&nbsp;&nbsp;内窥多模态成像技术研究</b>&nbsp;&nbsp;|&nbsp;光学相干断层成像与荧光成像两种模态的同步成像，结合内窥技术完成生物体体内成像</font></p>
 
 				<ul>
 					<li>负责多模态成像系统的软件编写，包括内窥旋转接头的上位机通信和控制，OCT信号和荧光信号采集，数据后处理和图像生成</li>
-					<li>负责内窥旋转接头的嵌入式程序编写和调试，包括与上位机的通信，步进电机和旋转电机的控制，采集路径的设计</li>
+					<li>负责内窥旋转接头的嵌入式程序编写和调试，包括与上位机的通信，步进电机和旋转电机的控制，采集路径的执行</li>
 					<li>负责整个系统的控制和同步设计，包括两种模态信号采集部分的同步设计，旋转接头和信号采集的同步设计</li>
 					<li>参与了OCT光路和荧光光路的设计和搭建</li>
-					<li>参与了内窥导管和内窥探头的设计，元件选型与购买，和组装制作</li>
+					<li>参与了内窥导管和内窥探头的设计，器件选型与购买，和组装制作</li>
 				</ul> 
 
 				<a href="zh-projects/zh-project-multimodal.html" target="_blank"> <small>[项目主页]</small></a>
-			</div>
-		</div><hr>
-
-
-		<div class="row">
-			<div class="col-md-2">
-				<div style="max-width:300px;">
-					<img class="img-fluid img-rounded" src="zh-CN-files/Homepage_FOV_intro.jpg" style="border:1px solid black" alt="">
-				</div>
-			</div>
-			<div class="col-md-10">
-				<p><font color="black"><b>&nbsp;&nbsp;机器人辅助大视场OCT成像系统研究</b>&nbsp;&nbsp;|&nbsp;将机械臂与大视场OCT相结合，对物体进行快速精确的三维建模</font></p>
-
-				<ul>
-					<li>负责数据的后处理和图像的实时显示，可在0.7秒内完成全脸成像</li>
-					<li>负责点云数据的提取与处理，基于OCT的深度图像，提取人脸或其他物体表面的点云，完成点云的配准，精确还原物体表面的三维结构</li>
-					<li>参与了硬件系统，包括OCT系统和机械臂的搭建和调试</li>
-				</ul> 
-
-				<a href="zh-projects/zh-project-large_FOV.html" target="_blank"> <small>[项目主页]</small></a>
-				<a href="zh-projects/zh-projects-files/lip_pointcloud.xyz" download="lip_pointcloud.xyz"> <small>[嘴唇点云示例数据]</small></a>
 			</div>
 		</div><hr>
 	</div><br>
